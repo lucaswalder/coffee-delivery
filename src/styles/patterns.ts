@@ -1,5 +1,12 @@
 import { css } from "styled-components";
 
+export const CONTAINER = css`
+  width: 100%;
+  max-width: 1150px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+`;
+
 export const TITLE_XL = css`
   font-family: ${props => props.theme.fonts.title};
   font-size: 4.8rem;

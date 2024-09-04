@@ -22,4 +22,9 @@ body, input, text-area, button {
   body {
     background: ${BACKGROUND};
   }
+
+  button {
+    border: none;
+    background: transparent;
+  }
 `;
